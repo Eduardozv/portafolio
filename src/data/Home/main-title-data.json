@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "\"Miennie Lanndie\"",
+    "tagline": "Jardín de Educación Inicial",
+    "image": "background/kinderBackground.png",
+    "slogan": [{ "txt": "aprende", "color": "red"}, { "txt": "brilla", "color": "blue"},{ "txt": "crece", "color": "green"}, { "txt": "resplandece", "color": "yellow"}],
+    "phrase": "¡Para tus hijos lo mejor!",
+    "circleImage": [
+      "aprende.png"
+    ],
+    "buttons": [
+      
+    ]
+  }
+]
