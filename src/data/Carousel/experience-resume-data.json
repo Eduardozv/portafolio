@@ -1,69 +1,37 @@
 [
   {
     "id": 1,
-    "title": "Front-end developer",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue, sapien quis bibendum luctus, justo nunc tincidunt quam, non efficitur augue nulla eu leo. Aliquam nec metus mi.",
+    "title": "Software Developer",
+    "text": "Front-end developer. Developing app and websites for U.S.A clients with React/ReactNative.",
+    "tech": "Tools / Technologies used:\r\nAgile Methodology, Scrum, HTML, CSS, Javascript, React, ReactNative, GitHub, AppleStore, PlayStore, VisualStudioCode",
     "items": [
       {
         "id": 1,
         "icon": "calendar",
-        "title": "2010-2013"
+        "title": "2018-2021"
       },
       {
         "id": 2,
         "icon": "envato",
-        "title": "Themeforest"
+        "title": "ASAP Developers"
       }
     ]
   },
   {
     "id": 2,
-    "title": "Sound editor",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue, sapien quis bibendum luctus, justo nunc tincidunt quam, non efficitur augue nulla eu leo. Aliquam nec metus mi.",
+    "title": "Full-stack developer",
+    "text": "Development and maintenance of Internal University Manager System & Students Web Site.",
+    "tech": "Tools / Technologies used:\nHTML, CSS, Javascript, JSF, JSP, JQuery, RichFaces, EJB, Hibernate, Java, Oracle, Eclipse, JBoss, JUnit",
     "items": [
       {
         "id": 1,
         "icon": "calendar",
-        "title": "2010-2013"
+        "title": "2016-2017"
       },
       {
         "id": 2,
         "icon": "envato",
-        "title": "Audio Jungle"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "2D Animator",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue, sapien quis bibendum luctus, justo nunc tincidunt quam, non efficitur augue nulla eu leo. Aliquam nec metus mi.",
-    "items": [
-      {
-        "id": 1,
-        "icon": "calendar",
-        "title": "2014-2017"
-      },
-      {
-        "id": 2,
-        "icon": "envato",
-        "title": "Videohive"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Plugin developer",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue, sapien quis bibendum luctus, justo nunc tincidunt quam, non efficitur augue nulla eu leo. Aliquam nec metus mi.",
-    "items": [
-      {
-        "id": 1,
-        "icon": "calendar",
-        "title": "2014-2017"
-      },
-      {
-        "id": 2,
-        "icon": "envato",
-        "title": "Codecanyon"
+        "title": "SeCIU (Servicio Central Informático de la Universidad)"
       }
     ]
   }

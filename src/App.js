@@ -23,7 +23,6 @@ import Construction from "./pages/home/Construction";
 import Music from "./pages/home/Music";
 import Weddings from "./pages/home/Weddings";
 import DesignStudio from "./pages/home/DesignStudio";
-import KinderGarden from "./pages/home/KinderGarden";
 
 // Pages
 import AboutUs from "./pages/about/AboutUs";
@@ -93,19 +92,15 @@ import GridColumns from "./pages/elements/GridColumns";
 import TeamMembers from "./pages/elements/TeamMembers";
 import Countdowns from "./pages/elements/Countdowns";
 import ScrollToTop from "./helpers/ScrollToTop";
-
 import Demos from "./pages/Demos";
-import texts from "./data/Home/home-text.json"
-import WhatsAppWidget from 'react-whatsapp-widget'
-import 'react-whatsapp-widget/dist/index.css'
 
 function App() {
 
   return (
     <Router basename={"/"}>
-      {/* <ScrollToTop> */}
+      <ScrollToTop>
         <Switch>
-          <Route exact path={`${process.env.PUBLIC_URL}/`} component={KinderGarden} />
+          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demos} />
           <Route
             exact
             path={`${process.env.PUBLIC_URL}/creative-agency`}
@@ -503,10 +498,7 @@ function App() {
           />
           <Route component={Page404} />
         </Switch>
-      {/* </ScrollToTop> */}
-      {/* <div style={{ zIndex: 10, position: 'fixed', right: '50px', bottom: '38px' }}>
-        <WhatsAppWidget className="verdant" style={{ height: '40px !important', width: '40px'  }} phoneNumber={texts.cel} textReplyTime='Respondemos en el día' placeholder="Escribe un mensaje" message='Hola 👋🏼' companyName="Jardín - Miennie Lanndie" sendButton="Enviar"  />
-      </div> */}
+      </ScrollToTop>
     </Router>
   );
 }

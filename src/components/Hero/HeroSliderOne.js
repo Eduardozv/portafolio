@@ -1,11 +1,11 @@
 import React, { forwardRef } from "react";
 import TextLoop from "react-text-loop";
-import bgImg from "../../assets/images/background/parallax-bg-5.jpg";
+import bgImg from "../../assets/images/background/personal_resume_background.png";
 import Canvas from "../../elements/Canvas";
 
 const HeroSliderOne = forwardRef((props, ref) => {
 
-    const tags = ["HELLO", "I'M", "CREATIVE", "DESIGNER", "&", "FRONT-END DEVELOPER"];
+    const tags = ["HELLO", "I'M", "SOFTWARE ENGINEER", "&", "FULL STACK DEVELOPER"];
 
   return (
     <section className="pt-0 pb-0" id="home" ref={ref}>
@@ -18,7 +18,7 @@ const HeroSliderOne = forwardRef((props, ref) => {
         <div className="hero-text-wrap">
           <div className="hero-text white-color">
             <div className="container text-center">
-              <h1 className="white-color font-700">Stephen Burns</h1>
+              <h1 className="white-color font-700">Eduardo García</h1>
               <div className="animate-caption">
                 <h2 className="white-color mt-30">
                   <TextLoop mask={true}>

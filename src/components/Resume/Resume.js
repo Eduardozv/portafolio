@@ -42,10 +42,10 @@ const Resume = forwardRef((props, ref) => {
               Experience
             </h3>
             <p className="white-color">
-              Mauris quis venenatis mauris. Nullam vel commodo velit. Cras purus
+              {/* Mauris quis venenatis mauris. Nullam vel commodo velit. Cras purus
               risus, congue sed ornare id,
               <br />
-              vulputate mollis elit.
+              vulputate mollis elit. */}
             </p>
             <Slider {...settings}>
               {dataExperience.map((item) => (
@@ -58,6 +58,7 @@ const Resume = forwardRef((props, ref) => {
                   ))}
                   <h2>{item.title}</h2>
                   <p>{item.text}</p>
+                  <p>{item.tech}</p>
                 </div>
               ))}
             </Slider>
@@ -67,10 +68,10 @@ const Resume = forwardRef((props, ref) => {
           <div className="col-md-12">
             <h3 className="mt-10 font-700 text-uppercase">Education</h3>
             <p className="white-color">
-              Mauris quis venenatis mauris. Nullam vel commodo velit. Cras purus
+              {/* Mauris quis venenatis mauris. Nullam vel commodo velit. Cras purus
               risus, congue sed ornare id,
               <br />
-              vulputate mollis elit.
+              vulputate mollis elit. */}
             </p>
             <Slider {...settings}>
               {dataEducation.map((item) => (

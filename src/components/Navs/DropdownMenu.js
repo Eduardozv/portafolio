@@ -40,9 +40,9 @@ const DropdownMenu = () => {
             onClick={(e) => handleHover(e)}
             key={i}
           >
-            {/* <a href="index" className="dropdown-toggle nav-link" data-toggle="dropdown">
+            <a href="index" className="dropdown-toggle nav-link" data-toggle="dropdown">
               {dropdown.title}
-            </a> */}
+            </a>
             {dropdown.megaMenu ? (
               <MegaDropdown
                 item={dropdown.subMenu}
