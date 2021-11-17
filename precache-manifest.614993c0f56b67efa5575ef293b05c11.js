@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "4235d06255886cc8394d",
+    "revision": "ea3b5ec07dae065d7183",
     "url": "/Eduardozv/portafolio/static/css/main.62408323.chunk.css"
   },
   {
-    "revision": "4235d06255886cc8394d",
-    "url": "/Eduardozv/portafolio/static/js/main.85fbb8a0.chunk.js"
+    "revision": "ea3b5ec07dae065d7183",
+    "url": "/Eduardozv/portafolio/static/js/main.34acc6cf.chunk.js"
   },
   {
     "revision": "1fa2f3cef0bd58b15a93",
     "url": "/Eduardozv/portafolio/static/js/runtime~main.433da5b8.js"
   },
   {
-    "revision": "2c603b095eaf0e1b1727",
+    "revision": "6f2178ccb17ebfc01bee",
     "url": "/Eduardozv/portafolio/static/css/2.5223ee84.chunk.css"
   },
   {
-    "revision": "2c603b095eaf0e1b1727",
-    "url": "/Eduardozv/portafolio/static/js/2.06479dd0.chunk.js"
+    "revision": "6f2178ccb17ebfc01bee",
+    "url": "/Eduardozv/portafolio/static/js/2.ae8c1573.chunk.js"
   },
   {
     "revision": "0b43e7c1983a6ed3e0dd173712bc358e",
@@ -44,20 +44,20 @@ self.__precacheManifest = [
     "url": "/Eduardozv/portafolio/static/media/startup-bg-right.c83dc045.jpg"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/Eduardozv/portafolio/static/media/slick.b7c9e1e4.woff"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/Eduardozv/portafolio/static/media/slick.ced611da.eot"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/Eduardozv/portafolio/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/Eduardozv/portafolio/static/media/slick.f97e3bbf.svg"
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/Eduardozv/portafolio/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/Eduardozv/portafolio/static/media/slick.ced611da.eot"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/Eduardozv/portafolio/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "e4054826d290c43a65f5785724a9b32d",
@@ -132,44 +132,36 @@ self.__precacheManifest = [
     "url": "/Eduardozv/portafolio/static/media/ionicons.2c2ae068.eot"
   },
   {
-    "revision": "05acfdb568b3df49ad31355b19495d4a",
-    "url": "/Eduardozv/portafolio/static/media/ionicons.05acfdb5.woff"
-  },
-  {
     "revision": "26ec3c7d0366e0825d705c6e224a8803",
     "url": "/Eduardozv/portafolio/static/media/et-line.26ec3c7d.eot"
   },
   {
-    "revision": "24712f6c47821394fba7942fbb52c3b2",
-    "url": "/Eduardozv/portafolio/static/media/ionicons.24712f6c.ttf"
-  },
-  {
-    "revision": "621bd386841f74e0053cb8e67f8a0604",
-    "url": "/Eduardozv/portafolio/static/media/ionicons.621bd386.svg"
-  },
-  {
-    "revision": "b01ff252761958325faab1535c90c87f",
-    "url": "/Eduardozv/portafolio/static/media/et-line.b01ff252.woff"
+    "revision": "05acfdb568b3df49ad31355b19495d4a",
+    "url": "/Eduardozv/portafolio/static/media/ionicons.05acfdb5.woff"
   },
   {
     "revision": "98126e3e1238b0f3b941ad285320ce28",
     "url": "/Eduardozv/portafolio/static/media/et-line.98126e3e.ttf"
   },
   {
-    "revision": "6e682f8dbb59d43f6c6b713894541605",
-    "url": "/Eduardozv/portafolio/static/media/map-bg.6e682f8d.png"
-  },
-  {
-    "revision": "569bd9082c15cc30fa6e05626abdd505",
-    "url": "/Eduardozv/portafolio/static/media/et-line.569bd908.svg"
+    "revision": "b01ff252761958325faab1535c90c87f",
+    "url": "/Eduardozv/portafolio/static/media/et-line.b01ff252.woff"
   },
   {
     "revision": "c83dc045ed2e098d5b8708018ec4286c",
     "url": "/Eduardozv/portafolio/static/media/about-us.c83dc045.jpg"
   },
   {
+    "revision": "24712f6c47821394fba7942fbb52c3b2",
+    "url": "/Eduardozv/portafolio/static/media/ionicons.24712f6c.ttf"
+  },
+  {
     "revision": "c83dc045ed2e098d5b8708018ec4286c",
     "url": "/Eduardozv/portafolio/static/media/travel-bg-right.c83dc045.jpg"
+  },
+  {
+    "revision": "6e682f8dbb59d43f6c6b713894541605",
+    "url": "/Eduardozv/portafolio/static/media/map-bg.6e682f8d.png"
   },
   {
     "revision": "c83dc045ed2e098d5b8708018ec4286c",
@@ -178,10 +170,6 @@ self.__precacheManifest = [
   {
     "revision": "3ed47b8703d0f7bf441f3d5bd877ed24",
     "url": "/Eduardozv/portafolio/static/media/parallax-bg.3ed47b87.jpg"
-  },
-  {
-    "revision": "fe77ad1699e236c9748f9420e8d6a756",
-    "url": "/Eduardozv/portafolio/static/media/parallax-bg-3.fe77ad16.jpg"
   },
   {
     "revision": "fe77ad1699e236c9748f9420e8d6a756",
@@ -196,12 +184,16 @@ self.__precacheManifest = [
     "url": "/Eduardozv/portafolio/static/media/parallax-bg-9.fe77ad16.jpg"
   },
   {
+    "revision": "fe77ad1699e236c9748f9420e8d6a756",
+    "url": "/Eduardozv/portafolio/static/media/parallax-bg-4.fe77ad16.jpg"
+  },
+  {
     "revision": "3ed47b8703d0f7bf441f3d5bd877ed24",
     "url": "/Eduardozv/portafolio/static/media/parallax-bg-10.3ed47b87.jpg"
   },
   {
     "revision": "fe77ad1699e236c9748f9420e8d6a756",
-    "url": "/Eduardozv/portafolio/static/media/parallax-bg-4.fe77ad16.jpg"
+    "url": "/Eduardozv/portafolio/static/media/parallax-bg-3.fe77ad16.jpg"
   },
   {
     "revision": "fe77ad1699e236c9748f9420e8d6a756",
@@ -209,11 +201,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "fe77ad1699e236c9748f9420e8d6a756",
-    "url": "/Eduardozv/portafolio/static/media/parallax-bg-15.fe77ad16.jpg"
+    "url": "/Eduardozv/portafolio/static/media/parallax-bg-14.fe77ad16.jpg"
   },
   {
     "revision": "fe77ad1699e236c9748f9420e8d6a756",
-    "url": "/Eduardozv/portafolio/static/media/parallax-bg-14.fe77ad16.jpg"
+    "url": "/Eduardozv/portafolio/static/media/parallax-bg-15.fe77ad16.jpg"
   },
   {
     "revision": "fe77ad1699e236c9748f9420e8d6a756",
@@ -225,11 +217,15 @@ self.__precacheManifest = [
   },
   {
     "revision": "9eafde0ac30b657839494322709c5f4c",
-    "url": "/Eduardozv/portafolio/static/media/title-hero-2.9eafde0a.jpg"
+    "url": "/Eduardozv/portafolio/static/media/title-hero-1.9eafde0a.jpg"
+  },
+  {
+    "revision": "621bd386841f74e0053cb8e67f8a0604",
+    "url": "/Eduardozv/portafolio/static/media/ionicons.621bd386.svg"
   },
   {
     "revision": "9eafde0ac30b657839494322709c5f4c",
-    "url": "/Eduardozv/portafolio/static/media/title-hero-1.9eafde0a.jpg"
+    "url": "/Eduardozv/portafolio/static/media/title-hero-2.9eafde0a.jpg"
   },
   {
     "revision": "9eafde0ac30b657839494322709c5f4c",
@@ -240,20 +236,20 @@ self.__precacheManifest = [
     "url": "/Eduardozv/portafolio/static/media/title-hero-4.fe77ad16.jpg"
   },
   {
-    "revision": "7c6a5bd76f11cf6161da7a76b4e050d5",
-    "url": "/Eduardozv/portafolio/static/media/title-hero-7.7c6a5bd7.jpg"
-  },
-  {
     "revision": "fe77ad1699e236c9748f9420e8d6a756",
     "url": "/Eduardozv/portafolio/static/media/title-hero-5.fe77ad16.jpg"
+  },
+  {
+    "revision": "569bd9082c15cc30fa6e05626abdd505",
+    "url": "/Eduardozv/portafolio/static/media/et-line.569bd908.svg"
   },
   {
     "revision": "7c6a5bd76f11cf6161da7a76b4e050d5",
     "url": "/Eduardozv/portafolio/static/media/title-hero-6.7c6a5bd7.jpg"
   },
   {
-    "revision": "9eafde0ac30b657839494322709c5f4c",
-    "url": "/Eduardozv/portafolio/static/media/title-hero-10.9eafde0a.jpg"
+    "revision": "7c6a5bd76f11cf6161da7a76b4e050d5",
+    "url": "/Eduardozv/portafolio/static/media/title-hero-7.7c6a5bd7.jpg"
   },
   {
     "revision": "9eafde0ac30b657839494322709c5f4c",
@@ -262,6 +258,10 @@ self.__precacheManifest = [
   {
     "revision": "7c6a5bd76f11cf6161da7a76b4e050d5",
     "url": "/Eduardozv/portafolio/static/media/title-hero-8.7c6a5bd7.jpg"
+  },
+  {
+    "revision": "9eafde0ac30b657839494322709c5f4c",
+    "url": "/Eduardozv/portafolio/static/media/title-hero-10.9eafde0a.jpg"
   },
   {
     "revision": "e430101033efff9a294eaafecbac846a",
@@ -860,7 +860,7 @@ self.__precacheManifest = [
     "url": "/Eduardozv/portafolio/static/media/startup.e6b9e3d5.webm"
   },
   {
-    "revision": "9af12719c3e6e0e2ffe58648aec63b37",
+    "revision": "ea51825cc4ea947c13f29a6bae4be7c9",
     "url": "/Eduardozv/portafolio/index.html"
   }
 ];
