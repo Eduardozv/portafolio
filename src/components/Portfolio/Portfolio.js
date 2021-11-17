@@ -8,7 +8,7 @@ import Lightbox from "react-image-lightbox";
 
 const Portfolio = forwardRef(
   ({ filter, layout, columns, space, items, classAppend, children }, ref) => {
-    const categories = ["all", "design", "web", "branding", "print"];
+    const categories = ["all", "webs", "apps", "gamedev"];
     const element = useRef();
     const [shuffle, setShuffle] = useState();
 
@@ -60,6 +60,9 @@ const Portfolio = forwardRef(
         ) : null}
         <div className={"container" + (layout === "wide" ? "-fluid" : "")}>
           <div className="row">
+            <div className="col-sm-8 section-heading">
+              <h1 className="text-uppercase font-700">Portfolio</h1>
+            </div>
             <div className={"container" + (layout === "wide" ? "-fluid" : "") + " text-center"}>
               {filter === "true" ? (
                 <PortfolioFilter
@@ -84,19 +87,21 @@ const Portfolio = forwardRef(
                           image={item.image}
                           groups={item.groups}
                           space={space ? "true" : "false"}
+                          links={item.links}
                           columns={columns}
                           openLightbox={openLightbox}
-                        />
-                      ))
-                  : dataPortfolio.map((item, i) => (
-                      <PortfolioItem
-                        key={item.id}
-                        title={item.title}
-                        category={item.category}
-                        image={item.image}
-                        groups={item.groups}
-                        space={space ? "true" : "false"}
-                        columns={columns}
+                          />
+                          ))
+                          : dataPortfolio.map((item, i) => (
+                            <PortfolioItem
+                            key={item.id}
+                            title={item.title}
+                            category={item.category}
+                            image={item.image}
+                            groups={item.groups}
+                            space={space ? "true" : "false"}
+                            links={item.links}
+                            columns={columns}
                         openLightbox={openLightbox}
                       />
                     ))}

@@ -34,12 +34,13 @@ const PortfolioItem = ({
             }
           >
             <div className="dark-overlay"></div>
-            <img src={require("../../assets/images/" + image)} alt="" />
+            <img src={require("../../assets/images/" + image)} alt={require("../../assets/images/portfolio/grid/3.jpg")} />
             <div className="portfolio-wrap">
               <div className="portfolio-description">
                 <h3 className="portfolio-title">{title}</h3>
                 <a
-                  href={`${process.env.PUBLIC_URL}/single-portfolio`}
+                  href={links[1] ? links[1].link : "!#"}
+                  // href={`${process.env.PUBLIC_URL}/single-portfolio`}
                   className="links"
                 >
                   {category}
@@ -56,7 +57,7 @@ const PortfolioItem = ({
                   </a>
                 </li>
                 <li>
-                  <a href={require("../../assets/images/" + image)}>
+                  <a href={links[1] ? links[1].link : "!#"}>
                     <Icofont icon="link-alt" />
                   </a>
                 </li>

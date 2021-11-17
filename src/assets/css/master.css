@@ -6145,7 +6145,7 @@ ul {padding-left: 0 !important;}
   .scroller .logo {height: 100%; top: 2px;}
   .scroller .navbar-header .navbar-toggler {margin-top: 14px !important;}
   nav.navbar.bootsnav .navbar-nav {padding: 0; margin:0;}
-  nav.navbar.bootsnav .navbar-toggler {top:0 !important; margin-right: 0 !important; margin-top: 0 !important; }
+  nav.navbar.bootsnav .navbar-toggler {top:0 !important; margin-right: 0 !important; margin-top: 8px !important; }
   nav.navbar.navbar-four .navbar-toggler {top: 15px !important;}
   .first-ico-box .left_parallax, .first-ico-box .right_parallax {display: none;}
   .demos .left_parallax {opacity: 0.3;}

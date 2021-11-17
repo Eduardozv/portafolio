@@ -1,4 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Loader from "./../../components/Loader/Loader";
 import useBodyClass from "../../helpers/useBodyClass";
 import HeaderFour from "../../components/Header/HeaderFour";
@@ -8,6 +10,7 @@ import Resume from "../../components/Resume/Resume";
 import ContactTwo from "../../components/ContactUs/ContactTwo";
 import FooterTwo from "../../components/Footer/FooterTwo";
 import Portfolio from "../../components/Portfolio/Portfolio";
+import FooterOne from "../../components/Footer/FooterOne";
 
 const PersonalResume = () => {
   useBodyClass("wrap-nav-sidebar");
@@ -16,6 +19,7 @@ const PersonalResume = () => {
   const portfolio = useRef();
   const resume = useRef();
   const contact = useRef();
+  
 
   const scrollToSection = (e, content) => {
     e.preventDefault();
@@ -39,6 +43,11 @@ const PersonalResume = () => {
     }
   };
 
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <Loader>
       <HeaderFour scrollToSection={scrollToSection} />
@@ -53,7 +62,7 @@ const PersonalResume = () => {
         ref={portfolio}
       />
       <Resume ref={resume} />
-      <ContactTwo ref={contact} classAppend="mt-50" />
+      {/* <ContactTwo title="Contact Me" ref={contact} classAppend="mt-50" /> */}
       <FooterTwo />
     </Loader>
   );

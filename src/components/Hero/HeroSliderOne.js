@@ -28,10 +28,10 @@ const HeroSliderOne = forwardRef((props, ref) => {
                   </TextLoop>
                 </h2>
               </div>
-              <p className="text-center mt-30">
+              {/* <p className="text-center mt-30">
                 <a href="!#" className="btn btn-outline-white btn-circle">View Resume</a>
                 <a href="!#" className="btn btn-dark btn-circle">Hire Me</a>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

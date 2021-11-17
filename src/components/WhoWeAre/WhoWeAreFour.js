@@ -9,13 +9,13 @@ const WhoWeAreFour = forwardRef((props, ref) => (
       <div className="row">
         <HeadingTwo
           title="About Me"
-          text="Hello This is Stephen a Creative UI/UX Designer and Front End Developer
-        Based on Australia, Melbourne I Have 10+ Years Experience in User
-        Interface and User Experience Currently Work at Themeforest, Envato as a
-        Freelance Designer. Hire me for more..."
+          text="This is Eduardo a Software Engineer and Full Stack Developer
+        Based on Montevideo, Uruguay 
+        I'm working remotely to deliver responsive Web Sites and Mobile Apps on Android & iOS. 
+        Working with Agile Methodology and focusing on giving value to the customer. Let's work together!"
         ></HeadingTwo>
       </div>
-      <div className="row mt-50">
+      {/* <div className="row mt-50">
         <div className="col-md-6 resume-bar">
           <OurSkillsOne />
         </div>
@@ -24,7 +24,7 @@ const WhoWeAreFour = forwardRef((props, ref) => (
             <CounterFour />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   </section>
 ));

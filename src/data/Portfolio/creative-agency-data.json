@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "One Four",
-    "category": "PRINT",
-    "image": "portfolio/grid/1.jpg",
-    "groups": ["all", "print", "branding"],
+    "title": "The Yoga Collective",
+    "category": "APPS",
+    "image": "portfolio/tyc_app.png",
+    "groups": ["all", "apps"],
     "links": [
       {
         "id": 1,
@@ -14,16 +14,16 @@
       {
         "id": 2,
         "icon": "link-alt",
-        "link": "!#"
+        "link": "https://www.theyogacollective.com/app/"
       }
     ]
   },
   {
     "id": 2,
-    "title": "And Logo",
-    "category": "BRANDING",
-    "image": "portfolio/grid/2.jpg",
-    "groups": ["all", "branding", "web"],
+    "title": "Marbl Platform",
+    "category": "APPS",
+    "image": "portfolio/marbl_platform.png",
+    "groups": ["all", "apps", "webs"],
     "links": [
       {
         "id": 1,
@@ -33,16 +33,16 @@
       {
         "id": 2,
         "icon": "link-alt",
-        "link": "!#"
+        "link": "https://marblplatform.com/app-features/"
       }
     ]
   },
   {
     "id": 3,
-    "title": "Business Card",
-    "category": "BRANDING",
-    "image": "portfolio/grid/3.jpg",
-    "groups": ["all", "branding"],
+    "title": "Game",
+    "category": "GAMEDEV",
+    "image": "portfolio/wheel_chair_game.png",
+    "groups": ["all", "gamedev"],
     "links": [
       {
         "id": 1,
@@ -52,16 +52,16 @@
       {
         "id": 2,
         "icon": "link-alt",
-        "link": "!#"
+        "link": "https://eduardozv.github.io/wheelChairBuild/"
       }
     ]
   },
   {
     "id": 4,
-    "title": "Wiley Club",
-    "category": "WEB DESIGN",
-    "image": "portfolio/grid/4.jpg",
-    "groups": ["all", "print", "design"],
+    "title": "Conectorium",
+    "category": "WEBS",
+    "image": "portfolio/conectorium.png",
+    "groups": ["all", "webs", "apps"],
     "links": [
       {
         "id": 1,
@@ -71,16 +71,16 @@
       {
         "id": 2,
         "icon": "link-alt",
-        "link": "!#"
+        "link": "https://www.conectorium.com/"
       }
     ]
   },
   {
     "id": 5,
-    "title": "Scarab Ring",
-    "category": "PRINT DESIGN",
-    "image": "portfolio/grid/5.jpg",
-    "groups": ["all", "design"],
+    "title": "Kindergarden",
+    "category": "WEBS",
+    "image": "portfolio/jardin.png",
+    "groups": ["all", "webs"],
     "links": [
       {
         "id": 1,
@@ -90,16 +90,16 @@
       {
         "id": 2,
         "icon": "link-alt",
-        "link": "!#"
+        "link": "https://miennielanndie.edu.uy/"
       }
     ]
   },
   {
     "id": 6,
-    "title": "First Floor",
-    "category": "WEB DESIGN",
-    "image": "portfolio/grid/6.jpg",
-    "groups": ["all", "design", "web"],
+    "title": "Ayax Toyota",
+    "category": "APPS",
+    "image": "portfolio/ayax.png",
+    "groups": ["all", "apps"],
     "links": [
       {
         "id": 1,
@@ -109,7 +109,7 @@
       {
         "id": 2,
         "icon": "link-alt",
-        "link": "!#"
+        "link": "https://play.google.com/store/apps/details?id=uy.com.ayax"
       }
     ]
   },
