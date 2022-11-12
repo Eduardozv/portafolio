@@ -5256,6 +5256,13 @@
     "fs-extra" "^8.1.0"
     "globby" "^6.1.0"
 
+"git@^0.1.5":
+  "integrity" "sha512-N+bfOrXyKMU/fQtCj6D/U9MQOEN0DAA8TLHSLdUQRSWBOkeRvsjJHdrdkvcq05xO7GSDKWc3nDEGoTZ4DfCCSg=="
+  "resolved" "https://registry.npmjs.org/git/-/git-0.1.5.tgz"
+  "version" "0.1.5"
+  dependencies:
+    "mime" "1.2.9"
+
 "glob-base@^0.3.0":
   "integrity" "sha1-27Fk9iIbHAscz4Kuoyi0l98Oo8Q="
   "resolved" "https://registry.npmjs.org/glob-base/-/glob-base-0.3.0.tgz"
@@ -7527,6 +7534,11 @@
   "integrity" "sha512-tqkh47FzKeCPD2PUiPB6pkbMzsCasjxAfC62/Wap5qrUWcb+sFasXUC5I3gYM5iBM8v/Qpn4UK0x+j0iHyFPDg=="
   "resolved" "https://registry.npmjs.org/mime/-/mime-2.5.2.tgz"
   "version" "2.5.2"
+
+"mime@1.2.9":
+  "integrity" "sha512-WiLgbHTIq5AYUvU/Luli4mZ1bUcHpGNHyCsbl+KPMg4zt+XUDpQehWjuBjdLaEvDTinvKj/FgfQt3fPoT7j08g=="
+  "resolved" "https://registry.npmjs.org/mime/-/mime-1.2.9.tgz"
+  "version" "1.2.9"
 
 "mime@1.6.0":
   "integrity" "sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg=="
