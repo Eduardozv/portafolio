@@ -99,6 +99,8 @@ function _createSuper(Derived) {
   };
 }
 
+var tinyEmitter = {exports: {}};
+
 function E () {
   // Keep this empty so it's easier to inherit from
   // (via https://github.com/lipsmack from https://github.com/scottcorgan/tiny-emitter/issues/3)
@@ -163,9 +165,10 @@ E.prototype = {
   }
 };
 
-var tinyEmitter = E;
-var TinyEmitter = E;
-tinyEmitter.TinyEmitter = TinyEmitter;
+tinyEmitter.exports = E;
+tinyEmitter.exports.TinyEmitter = E;
+
+var TinyEmitter = tinyEmitter.exports;
 
 var proto = typeof Element !== 'undefined' ? Element.prototype : {};
 var vendor = proto.matches
@@ -504,7 +507,12 @@ var testComputedSize = (function () {
   var e = document.createElement('div');
   e.style.cssText = 'width:10px;padding:2px;box-sizing:border-box;';
   element.appendChild(e);
-  value = window.getComputedStyle(e, null).width === '10px';
+
+  var _window$getComputedSt = window.getComputedStyle(e, null),
+      width = _window$getComputedSt.width; // Fix for issue #314
+
+
+  value = Math.round(getNumber(width)) === 10;
   element.removeChild(e);
   return value;
 });
@@ -967,6 +975,7 @@ var Shuffle = /*#__PURE__*/function (_TinyEmitter) {
     key: "_init",
     value: function _init() {
       this.items = this._getItems();
+      this.sortedItems = this.items;
       this.options.sizer = this._getElementOption(this.options.sizer); // Add class and invalidate styles
 
       this.element.classList.add(Shuffle.Classes.BASE); // Set initial css for each item
@@ -1809,6 +1818,7 @@ var Shuffle = /*#__PURE__*/function (_TinyEmitter) {
       this._resetCols();
 
       var items = sorter(this._getFilteredItems(), sortOptions);
+      this.sortedItems = items;
 
       this._layout(items); // `_layout` always happens after `_shrink`, so it's safe to process the style
       // queue here with styles from the shrink method.
@@ -2145,7 +2155,7 @@ var Shuffle = /*#__PURE__*/function (_TinyEmitter) {
   }]);
 
   return Shuffle;
-}(tinyEmitter);
+}(TinyEmitter);
 
 Shuffle.ShuffleItem = ShuffleItem;
 Shuffle.ALL_ITEMS = 'all';
