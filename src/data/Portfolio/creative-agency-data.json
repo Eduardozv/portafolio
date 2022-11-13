@@ -115,10 +115,10 @@
   },
   {
     "id": 7,
-    "title": "KingdomRush Vengeance Expansion",
-    "category": "GAMEDEV",
-    "image": "portfolio/krv_expansion.png",
-    "groups": ["all", "gamedev"],
+    "title": "Flyer Design",
+    "category": "BRANDING",
+    "image": "portfolio/grid/7.jpg",
+    "groups": ["all", "design", "branding"],
     "links": [
       {
         "id": 1,
@@ -128,16 +128,16 @@
       {
         "id": 2,
         "icon": "link-alt",
-        "link": "https://www.youtube.com/watch?v=bSboJ6ci0ak&ab_channel=IronhideGameStudio"
+        "link": "!#"
       }
     ]
   },
   {
     "id": 8,
-    "title": "JunkWorld TowerDefense Project",
-    "category": "GAMEDEV",
-    "image": "portfolio/junkworld_towerdefense.png",
-    "groups": ["all", "gamedev"],
+    "title": "Card Mocks",
+    "category": "PRINT DESIGN",
+    "image": "portfolio/grid/8.jpg",
+    "groups": ["all", "design", "print"],
     "links": [
       {
         "id": 1,
@@ -147,7 +147,7 @@
       {
         "id": 2,
         "icon": "link-alt",
-        "link": "https://play.google.com/store/apps/details?id=com.ironhidegames.android.junkworld&hl=en_US&gl=US"
+        "link": "!#"
       }
     ]
   }
