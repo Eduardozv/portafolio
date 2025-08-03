@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.da3258b9.css",
-    "main.js": "/portafolio/static/js/main.84176d0f.js",
+    "main.js": "/portafolio/static/js/main.beb49fc7.js",
     "static/media/startup.webm": "/portafolio/static/media/startup.7e046b28785b9088a19c.webm",
     "static/media/tyc_app.png~": "/portafolio/static/media/tyc_app.29783916923dbd93879f.png~",
     "static/media/tyc_app.png": "/portafolio/static/media/tyc_app.8442125f19a909f7538f.png",
@@ -205,6 +205,6 @@
   },
   "entrypoints": [
     "static/css/main.da3258b9.css",
-    "static/js/main.84176d0f.js"
+    "static/js/main.beb49fc7.js"
   ]
 }
