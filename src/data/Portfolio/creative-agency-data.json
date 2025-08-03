@@ -1,5 +1,43 @@
 [
   {
+    "id": 10,
+    "title": "FastStock",
+    "category": "WEBS",
+    "image": "portfolio/faststock.png",
+    "groups": ["all", "webs"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "https://faststock.net"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "GA Instalaciones Comerciales",
+    "category": "WEBS",
+    "image": "portfolio/ga_instalaciones.png",
+    "groups": ["all", "webs"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "https://gainstalacionescomerciales-latam.com/tienda/"
+      }
+    ]
+  },
+  {
     "id": 1,
     "title": "The Yoga Collective",
     "category": "APPS",

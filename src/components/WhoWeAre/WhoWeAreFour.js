@@ -10,9 +10,9 @@ const WhoWeAreFour = forwardRef((props, ref) => (
         <HeadingTwo
           title="About Me"
           text="This is Eduardo a Software Engineer and Full Stack Developer
-        Based on Montevideo, Uruguay 
-        I'm working remotely to deliver responsive Web Sites and Mobile Apps on Android & iOS. 
-        Working with Agile Methodology and focusing on giving value to the customer. Let's work together!"
+        Based on Montevideo, Uruguay.
+        I design and develop custom solutions for businesses, covering frontend, backend, and database layers. 
+        Specialized in turning ideas into functional, scalable, and production-ready products. Let's work together!"
         ></HeadingTwo>
       </div>
       {/* <div className="row mt-50">

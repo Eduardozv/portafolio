@@ -1,5 +1,41 @@
 [
   {
+    "id": 4,
+    "title": "Founder & CEO",
+    "text": "Built and maintain a multi-tenant SaaS web app for real-time inventory lookup via barcode/QR scanning. Led full-stack development (React, Firebase, Supabase), implemented analytics dashboards, authentication, and CRM integration. Oversee architecture, performance, and client onboarding.",
+    "tech": "Tools / Technologies used:\nReact, Nextjs, Firebase, Supabase, GitHub, VisualStudioCode, AI Tools, Windows Server, Apache, Python",
+    "items": [
+      {
+        "id": 1,
+        "icon": "calendar",
+        "title": "2023-Now"
+      },
+      {
+        "id": 2,
+        "icon": "envato",
+        "title": "FastStock"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Freelance Full-stack Developer",
+    "text": "Design and develop custom solutions for businesses, covering frontend, backend, and database layers. Delivered a wide range of projects—from mobile apps and dashboards to full SaaS platforms—with authentication, analytics, and third-party integrations. Specialized in turning ideas into functional, scalable, and production-ready products.",
+    "tech": "Tools / Technologies used:\nReact, Nextjs, React Native, Firebase, Supabase, GitHub, VisualStudioCode, AI Tools",
+    "items": [
+      {
+        "id": 1,
+        "icon": "calendar",
+        "title": "2023-Now"
+      },
+      {
+        "id": 2,
+        "icon": "envato",
+        "title": "WaveTechSAS"
+      }
+    ]
+  },
+  {
     "id": 1,
     "title": "Game Developer",
     "text": "GameDev. Developing tower defense games for IronHideGames studio using Unity and cocos2d.",
