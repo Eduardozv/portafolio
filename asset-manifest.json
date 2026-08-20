@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.f00fbf13.css",
-    "main.js": "/portafolio/static/js/main.bd49155d.js",
+    "main.css": "/portafolio/static/css/main.da3258b9.css",
+    "main.js": "/portafolio/static/js/main.beb49fc7.js",
     "static/media/startup.webm": "/portafolio/static/media/startup.7e046b28785b9088a19c.webm",
     "static/media/tyc_app.png~": "/portafolio/static/media/tyc_app.29783916923dbd93879f.png~",
     "static/media/tyc_app.png": "/portafolio/static/media/tyc_app.8442125f19a909f7538f.png",
     "static/media/krv_expansion.png": "/portafolio/static/media/krv_expansion.231927547fd77e851e12.png",
     "static/media/junkworld_towerdefense.png": "/portafolio/static/media/junkworld_towerdefense.58b5facf1eed674598f1.png",
     "static/media/personal_resume_background.png": "/portafolio/static/media/personal_resume_background.01b84178758d17c5c6af.png",
-    "static/media/faststock.png": "/portafolio/static/media/faststock.eca8ac0f34d7fc9c2d18.png",
     "static/media/wheel_chair_game.png": "/portafolio/static/media/wheel_chair_game.e5fbbd40d07a6840a13a.png",
     "static/media/jardin.png": "/portafolio/static/media/jardin.b8482c6cda28b2646824.png",
     "static/media/ayax.png": "/portafolio/static/media/ayax.04f51d598a5af1928502.png",
@@ -22,7 +21,6 @@
     "static/media/06.jpg": "/portafolio/static/media/06.79de68e8a45d4edd18ad.jpg",
     "static/media/01.jpg": "/portafolio/static/media/01.e5d0fab4b4868a50e673.jpg",
     "static/media/18.jpg": "/portafolio/static/media/18.c35d7141889f998696a0.jpg",
-    "static/media/ga_instalaciones.png": "/portafolio/static/media/ga_instalaciones.898443ca65412913edab.png",
     "static/media/03.jpg": "/portafolio/static/media/03.9a56121e11073db342ac.jpg",
     "static/media/04.jpg": "/portafolio/static/media/04.062c7effca9cb7438045.jpg",
     "static/media/19.jpg": "/portafolio/static/media/19.f62d7c84d72ff149dbd1.jpg",
@@ -206,7 +204,7 @@
     "static/media/wave-2.svg": "/portafolio/static/media/wave-2.8ef6532adecf182fc151e9245ed6159c.svg"
   },
   "entrypoints": [
-    "static/css/main.f00fbf13.css",
-    "static/js/main.bd49155d.js"
+    "static/css/main.da3258b9.css",
+    "static/js/main.beb49fc7.js"
   ]
 }
