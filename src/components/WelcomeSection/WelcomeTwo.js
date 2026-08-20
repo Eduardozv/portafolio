@@ -4,7 +4,6 @@ import WelcomeFeatures from "./WelcomeFeatures";
 import HeadingThree from "../../components/HeadingSection/HeadingThree";
 import OurSkillsOne from "../OurSkills/OurSkillsOne";
 import image from "../../assets/images/about-bg-left.jpg";
-import TeamSlider from "../Team/TeamSlider";
 
 const WelcomeTwo = ({ toggler, handleToggler }) => (
   <section className="dark-bg pt-0 pb-0">
@@ -29,11 +28,6 @@ const WelcomeTwo = ({ toggler, handleToggler }) => (
         >
           <OurSkillsOne classAppend="cardo-font" font="cardo-font" />
         </HeadingThree>
-        <div className="col-md-4 col-sm-12 team-member-wrapper">
-          <div className="col-inner">
-            <TeamSlider />
-          </div>
-        </div>
         <WelcomeFeatures
           title="What We Do"
           tagline="We develop big ideas that sell"

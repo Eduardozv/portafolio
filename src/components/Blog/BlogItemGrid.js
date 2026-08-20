@@ -1,15 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Icofont from "react-icofont";
-import Swiper from "react-id-swiper";
 
 const BlogItemGrid = ({
   id,
-  firstPost,
-  index,
   image,
   title,
-  link,
   slides,
   published,
   excerpt,
@@ -20,23 +16,6 @@ const BlogItemGrid = ({
     .replace(/\s/g, "-")
     .toLocaleLowerCase()}?id=${id}`;
 
-  const params = {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".blog-slider-next",
-      prevEl: ".blog-slider-prev",
-    },
-  };
-
   return (
     <div
       className={
@@ -44,33 +23,18 @@ const BlogItemGrid = ({
       }
     >
       <div className={"post " + (type === "video" ? "video-alpha" : "")}>
-        {type === "slider" ? (
-          <div className="blog-grid-slider">
-            <Swiper {...params}>
-              {slides.map((slide, i) => (
-                <img
-                  key={i}
-                  className="img-fluid"
-                  src={require("../../assets/images/" + slide)}
-                  alt=""
-                />
-              ))}
-            </Swiper>
-          </div>
-        ) : (
-          <div className="post-img">
-            <img
-              className="img-fluid"
-              src={require("../../assets/images/" + image)}
-              alt=""
-            />
-            {type === "video" ? (
-              <a className="video-play popup-youtube" href={process.env.PUBLIC_URL + blogURL}>
-                <Icofont icon="ui-play" />
-              </a>
-            ) : null}
-          </div>
-        )}
+        <div className="post-img">
+          <img
+            className="img-fluid"
+            src={require("../../assets/images/" + (type === "slider" ? slides[0] : image))}
+            alt=""
+          />
+          {type === "video" ? (
+            <a className="video-play popup-youtube" href={process.env.PUBLIC_URL + blogURL}>
+              <Icofont icon="ui-play" />
+            </a>
+          ) : null}
+        </div>
 
         <div className="post-info">
           <h3>
