@@ -8,13 +8,12 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "aos": "^2.3.4",
-    "axios": "^0.21.4",
+    "axios": "^1.19.0",
     "bootstrap": "^5.0.0",
     "d3-ease": "^2.0.0",
     "dom-helpers": "^5.2.1",
     "fslightbox-react": "^1.4.9",
-    "gh-pages": "^4.0.0",
-    "git": "^0.1.5",
+    "gh-pages": "^6.3.0",
     "google-map-react": "^2.1.9",
     "gsap": "^3.6.1",
     "html-react-parser": "^1.2.6",
@@ -48,6 +47,11 @@
     "slick-carousel": "^1.8.1",
     "swiper": "^6.6.1",
     "use-lax": "^4.0.3"
+  },
+  "overrides": {
+    "fast-uri": "^4.1.2",
+    "underscore": "^1.13.8",
+    "@tootallnate/once": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
