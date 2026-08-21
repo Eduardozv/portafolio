@@ -37,8 +37,9 @@ const HeaderFour = ({ scrollToSection }) => {
             >
               <Icofont icon="navigation-menu" />
             </button>
-            <div className="logo navbar-brand">
-              <h4 className="text-uppercase font-700">Personal Resume</h4>
+            <div className="logo navbar-brand ide-sidebar-logo">
+              <span className="ide-sidebar-path">~/eduardo-garcia</span>
+              <span className="ide-sidebar-rule"></span>
             </div>
             {/* <MainLogoTwo /> */}
           </div>
@@ -50,7 +51,7 @@ const HeaderFour = ({ scrollToSection }) => {
             <Scrollspy
               items={["home", "about", "work", "resume", "contact"]}
               currentClassName="active"
-              className="nav navbar-nav navbar-right"
+              className="nav navbar-nav navbar-right ide-sidebar-nav"
               data-in="fadeInLeft"
             >
               {dataNavbar.map((item, i) => (
@@ -59,20 +60,29 @@ const HeaderFour = ({ scrollToSection }) => {
                     href={process.env.PUBLIC_URL + item.link}
                     onClick={(e) => scrollToSection(e, item.link)}
                   >
-                    <i className="fa fa-home"></i> {item.title}
+                    <span className="ide-sidebar-index">
+                      {i === 0 ? ">" : String(i).padStart(2, "0")}
+                    </span>
+                    {item.title}
                   </a>
                 </li>
               ))}
             </Scrollspy>
-            <ul className="social-media-dark">
-              {dataSocial.map((social) => (
-                <SocialItem
-                  key={social.id}
-                  link={social.link}
-                  icon={social.icon}
-                />
-              ))}
-            </ul>
+            <div className="ide-sidebar-footer">
+              <div className="ide-sidebar-status">
+                <span className="ide-status-dot"></span>
+                available for work
+              </div>
+              <ul className="social-media-dark">
+                {dataSocial.map((social) => (
+                  <SocialItem
+                    key={social.id}
+                    link={social.link}
+                    icon={social.icon}
+                  />
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

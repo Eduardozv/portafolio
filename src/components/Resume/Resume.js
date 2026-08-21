@@ -1,92 +1,75 @@
 import React, { forwardRef } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
 import dataExperience from "../../data/Carousel/experience-resume-data.json";
 import dataEducation from "../../data/Carousel/education-resume-data.json";
-import Icofont from "react-icofont";
+
+const startYear = (item) => {
+  const dates = item.items.find((i) => i.icon === "calendar");
+  const match = dates && dates.title.match(/\d{4}/);
+  return match ? parseInt(match[0], 10) : 0;
+};
+
+const isOngoing = (item) => {
+  const dates = item.items.find((i) => i.icon === "calendar");
+  return dates && /now/i.test(dates.title);
+};
+
+const sortByYearDesc = (list) =>
+  [...list].sort((a, b) => {
+    if (isOngoing(a) !== isOngoing(b)) return isOngoing(a) ? -1 : 1;
+    return startYear(b) - startYear(a);
+  });
 
 const Resume = forwardRef((props, ref) => {
-  const settings = {
-    className: "resume-slider",
-    slidesToShow: 2,
-    arrows: false,
-    autoplay: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        },
-      }
-    ],
-  };
+  const experience = sortByYearDesc(dataExperience);
+  const education = sortByYearDesc(dataEducation);
 
   return (
-    <section className="dark-bg" id="resume" ref={ref}>
+    <section className="dark-bg ide-resume" id="resume" ref={ref}>
       <div className="container">
-        <div className="row">
-          <div className="col-sm-8 section-heading white-color">
-            <h1 className="text-uppercase font-700">My Resume</h1>
-          </div>
-        </div>
-        <div className="row mt-50">
-          <div className="col-md-12">
-            <h3 className="mt-10 raleway-font font-700 text-uppercase">
-              Experience
-            </h3>
-            <p className="white-color">
-              {/* Mauris quis venenatis mauris. Nullam vel commodo velit. Cras purus
-              risus, congue sed ornare id,
-              <br />
-              vulputate mollis elit. */}
-            </p>
-            <Slider {...settings}>
-              {dataExperience.map((item) => (
-                <div key={item.id}>
-                  {item.items.map((item) => (
-                    <h3 key={item.id}>
-                      <Icofont icon={item.icon} />
-                      {item.title}
-                    </h3>
+        <div className="ide-resume-eyebrow">{"// 03 — experience.tsx"}</div>
+        <h2 className="ide-resume-heading">Experience</h2>
+
+        <div className="ide-timeline">
+          {experience.map((item) => {
+            const dates = item.items.find((i) => i.icon === "calendar");
+            const company = item.items.find((i) => i.icon === "envato");
+            const tech = (item.tech || "")
+              .replace("Tools / Technologies used:", "")
+              .split(/[\n,]/)
+              .map((t) => t.trim())
+              .filter(Boolean);
+
+            return (
+              <div className="ide-timeline-item" key={item.id}>
+                <span className="ide-timeline-node"></span>
+                <div className="ide-timeline-date">{dates && dates.title}</div>
+                <h3 className="ide-timeline-role">{item.title}</h3>
+                <div className="ide-timeline-company">{company && company.title}</div>
+                <p className="ide-timeline-text">{item.text}</p>
+                <div className="ide-timeline-tags">
+                  {tech.map((t, i) => (
+                    <span key={i}>{t}</span>
                   ))}
-                  <h2>{item.title}</h2>
-                  <p>{item.text}</p>
-                  <p>{item.tech}</p>
                 </div>
-              ))}
-            </Slider>
-          </div>
+              </div>
+            );
+          })}
         </div>
-        <div className="row mt-50">
-          <div className="col-md-12">
-            <h3 className="mt-10 font-700 text-uppercase">Education</h3>
-            <p className="white-color">
-              {/* Mauris quis venenatis mauris. Nullam vel commodo velit. Cras purus
-              risus, congue sed ornare id,
-              <br />
-              vulputate mollis elit. */}
-            </p>
-            <Slider {...settings}>
-              {dataEducation.map((item) => (
-                <div key={item.id}>
-                  {item.items.map((item) => (
-                    <h3 key={item.id}>
-                      <Icofont icon={item.icon} />
-                      {item.title}
-                    </h3>
-                  ))}
-                  <h2>{item.title}</h2>
-                  <p>{item.text}</p>
+
+        <div className="ide-education">
+          <div className="ide-education-label">{"// education"}</div>
+          <div className="ide-education-grid">
+            {education.map((item) => {
+              const dates = item.items.find((i) => i.icon === "calendar");
+              const school = item.items.find((i) => i.icon === "envato");
+              return (
+                <div className="ide-education-item" key={item.id}>
+                  <div className="ide-timeline-date">{dates && dates.title}</div>
+                  <h4>{item.title}</h4>
+                  <div className="ide-education-school">{school && school.title}</div>
                 </div>
-              ))}
-            </Slider>
+              );
+            })}
           </div>
         </div>
       </div>

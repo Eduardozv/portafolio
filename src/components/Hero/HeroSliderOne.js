@@ -5,7 +5,7 @@ import Canvas from "../../elements/Canvas";
 
 const HeroSliderOne = forwardRef((props, ref) => {
 
-    const tags = ["HELLO", "I'M", "SOFTWARE ENGINEER", "&", "FULL STACK DEVELOPER"];
+    const tags = ["Software Engineer", "Full-Stack Developer"];
 
   return (
     <section className="pt-0 pb-0" id="home" ref={ref}>
@@ -28,10 +28,10 @@ const HeroSliderOne = forwardRef((props, ref) => {
                   </TextLoop>
                 </h2>
               </div>
-              {/* <p className="text-center mt-30">
-                <a href="!#" className="btn btn-outline-white btn-circle">View Resume</a>
-                <a href="!#" className="btn btn-dark btn-circle">Hire Me</a>
-              </p> */}
+              <p className="text-center hero-buttons">
+                <a href="#work" className="btn-hero-primary">View Work</a>
+                <a href="mailto:eduardouozv@gmail.com" className="btn-hero-secondary">Get in Touch</a>
+              </p>
             </div>
           </div>
         </div>

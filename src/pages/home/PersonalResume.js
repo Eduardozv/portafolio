@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "../../assets/css/ide-portfolio.css";
 import Loader from "./../../components/Loader/Loader";
 import useBodyClass from "../../helpers/useBodyClass";
 import HeaderFour from "../../components/Header/HeaderFour";
@@ -9,11 +10,11 @@ import WhoWeAreFour from "../../components/WhoWeAre/WhoWeAreFour";
 import Resume from "../../components/Resume/Resume";
 import ContactTwo from "../../components/ContactUs/ContactTwo";
 import FooterTwo from "../../components/Footer/FooterTwo";
-import Portfolio from "../../components/Portfolio/Portfolio";
+import IdeWork from "../../components/Portfolio/IdeWork";
 import FooterOne from "../../components/Footer/FooterOne";
 
 const PersonalResume = () => {
-  useBodyClass("wrap-nav-sidebar");
+  useBodyClass(["wrap-nav-sidebar", "ide-theme-active"]);
   const home = useRef();
   const about = useRef();
   const portfolio = useRef();
@@ -50,20 +51,15 @@ const PersonalResume = () => {
 
   return (
     <Loader>
-      <HeaderFour scrollToSection={scrollToSection} />
-      <HeroSliderOne ref={home} />
-      <WhoWeAreFour ref={about} />
-      <Portfolio
-        columns="3"
-        layout="wide"
-        filter="true"
-        items="9"
-        classAppend="pt-0"
-        ref={portfolio}
-      />
-      <Resume ref={resume} />
-      {/* <ContactTwo title="Contact Me" ref={contact} classAppend="mt-50" /> */}
-      <FooterTwo />
+      <div className="ide-portfolio">
+        <HeaderFour scrollToSection={scrollToSection} />
+        <HeroSliderOne ref={home} />
+        <WhoWeAreFour ref={about} />
+        <IdeWork ref={portfolio} />
+        <Resume ref={resume} />
+        {/* <ContactTwo title="Contact Me" ref={contact} classAppend="mt-50" /> */}
+        <FooterTwo />
+      </div>
     </Loader>
   );
 };
