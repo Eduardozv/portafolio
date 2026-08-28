@@ -3,7 +3,7 @@ import TextLoop from "react-text-loop";
 import bgImg from "../../assets/images/background/personal_resume_background.png";
 import Canvas from "../../elements/Canvas";
 
-const HeroSliderOne = forwardRef((props, ref) => {
+const HeroSliderOne = forwardRef(({ scrollToSection }, ref) => {
 
     const tags = ["Software Engineer", "Full-Stack Developer"];
 
@@ -29,7 +29,7 @@ const HeroSliderOne = forwardRef((props, ref) => {
                 </h2>
               </div>
               <p className="text-center hero-buttons">
-                <a href="#work" className="btn-hero-primary">View Work</a>
+                <a href="#work" className="btn-hero-primary" onClick={(e) => scrollToSection(e, "portfolio")}>View Work</a>
                 <a href="mailto:eduardouozv@gmail.com" className="btn-hero-secondary">Get in Touch</a>
               </p>
             </div>

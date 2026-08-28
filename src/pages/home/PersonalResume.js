@@ -53,7 +53,7 @@ const PersonalResume = () => {
     <Loader>
       <div className="ide-portfolio">
         <HeaderFour scrollToSection={scrollToSection} />
-        <HeroSliderOne ref={home} />
+        <HeroSliderOne ref={home} scrollToSection={scrollToSection} />
         <WhoWeAreFour ref={about} />
         <IdeWork ref={portfolio} />
         <Resume ref={resume} />
