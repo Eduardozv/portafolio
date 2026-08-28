@@ -209,6 +209,10 @@ body.ide-theme-active #back-to-top:hover {
 /* ---------- Hero foreground text + buttons only ---------- */
 /* .full-screen-bg / .parallax-img / canvas are NOT touched */
 
+.ide-portfolio .hero-text-wrap {
+  background-color: rgba(13, 37, 64, 0.2);
+}
+
 .ide-portfolio .hero-text h1 {
   font-family: var(--ide-display);
   font-weight: 700 !important;
@@ -244,8 +248,8 @@ body.ide-theme-active #back-to-top:hover {
   display: inline-flex;
   align-items: center;
   padding: 13px 26px;
-  border: 1.5px solid var(--ide-accent2);
-  background: var(--ide-accent2);
+  border: 1.5px solid var(--ide-accent);
+  background: var(--ide-accent);
   color: #ffffff;
   font-family: var(--ide-mono);
   font-size: 14px;
