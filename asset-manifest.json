@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.1488d901.css",
-    "main.js": "/portafolio/static/js/main.49b0984b.js",
+    "main.css": "/portafolio/static/css/main.45eab422.css",
+    "main.js": "/portafolio/static/js/main.3c2ea4e7.js",
     "static/media/startup.webm": "/portafolio/static/media/startup.7e046b28785b9088a19c.webm",
     "static/media/tyc_app.png~": "/portafolio/static/media/tyc_app.29783916923dbd93879f.png~",
     "static/media/tyc_app.png": "/portafolio/static/media/tyc_app.8442125f19a909f7538f.png",
@@ -22,7 +22,6 @@
     "static/media/06.jpg": "/portafolio/static/media/06.79de68e8a45d4edd18ad.jpg",
     "static/media/01.jpg": "/portafolio/static/media/01.e5d0fab4b4868a50e673.jpg",
     "static/media/18.jpg": "/portafolio/static/media/18.c35d7141889f998696a0.jpg",
-    "static/media/ga_instalaciones.png": "/portafolio/static/media/ga_instalaciones.898443ca65412913edab.png",
     "static/media/03.jpg": "/portafolio/static/media/03.9a56121e11073db342ac.jpg",
     "static/media/04.jpg": "/portafolio/static/media/04.062c7effca9cb7438045.jpg",
     "static/media/19.jpg": "/portafolio/static/media/19.f62d7c84d72ff149dbd1.jpg",
@@ -39,10 +38,12 @@
     "static/media/07.jpg": "/portafolio/static/media/07.b255ed3c1949ec1c0504.jpg",
     "static/media/20.jpg": "/portafolio/static/media/20.f62d7c84d72ff149dbd1.jpg",
     "static/media/ionicons.svg?v=2.0.0": "/portafolio/static/media/ionicons.b45d332f6829d6813600.svg",
+    "static/media/ga_instalaciones.jpg": "/portafolio/static/media/ga_instalaciones.d3e3e5b6e1a1da009446.jpg",
     "static/media/conectorium.png": "/portafolio/static/media/conectorium.b0ef6b999909dfb469f0.png",
     "static/media/conectorium.png~": "/portafolio/static/media/conectorium.d786f79290ed1af091bf.png~",
     "static/media/ionicons.ttf?v=2.0.0": "/portafolio/static/media/ionicons.1fa6a1e8581aaedf7344.ttf",
     "static/media/et-line.svg": "/portafolio/static/media/et-line.613c7311d2d5a1dd7e49.svg",
+    "static/media/retail-bi-platform.jpg": "/portafolio/static/media/retail-bi-platform.b419cf083ce213b70d26.jpg",
     "static/media/memphis-2.png": "/portafolio/static/media/memphis-2.f241130200c44bb25d99.png",
     "static/media/ionicons.eot?v=2.0.0": "/portafolio/static/media/ionicons.68e3a4f9a8d8c679b4ae.eot",
     "static/media/favicon.ico": "/portafolio/static/media/favicon.62a434cb75bd65c07bf6.ico",
@@ -201,12 +202,12 @@
     "static/media/slick.eot": "/portafolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/portafolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portafolio/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/wave.svg": "/portafolio/static/media/wave.2033d5e51cbf4464349d4e2fe77ae2ba.svg",
     "index.html": "/portafolio/index.html",
+    "static/media/wave.svg": "/portafolio/static/media/wave.2033d5e51cbf4464349d4e2fe77ae2ba.svg",
     "static/media/wave-2.svg": "/portafolio/static/media/wave-2.8ef6532adecf182fc151e9245ed6159c.svg"
   },
   "entrypoints": [
-    "static/css/main.1488d901.css",
-    "static/js/main.49b0984b.js"
+    "static/css/main.45eab422.css",
+    "static/js/main.3c2ea4e7.js"
   ]
 }
