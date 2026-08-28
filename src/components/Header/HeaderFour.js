@@ -4,7 +4,6 @@ import Scrollspy from "react-scrollspy";
 import useWindowSize from "../../helpers/GetWindowSize";
 import dataNavbar from "../../data/Navbar/navbar-resume.json";
 import dataSocial from "../../data/Social/social-data.json";
-import MainLogoTwo from "../../elements/Logo/MainLogoTwo";
 import SocialItem from "../../elements/SocialItem";
 
 const HeaderFour = ({ scrollToSection }) => {
@@ -41,7 +40,6 @@ const HeaderFour = ({ scrollToSection }) => {
               <span className="ide-sidebar-path">~/eduardo-garcia</span>
               <span className="ide-sidebar-rule"></span>
             </div>
-            {/* <MainLogoTwo /> */}
           </div>
           <div
             className="navbar-collapse collapse"

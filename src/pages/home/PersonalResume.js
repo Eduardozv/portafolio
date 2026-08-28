@@ -8,10 +8,8 @@ import HeaderFour from "../../components/Header/HeaderFour";
 import HeroSliderOne from "../../components/Hero/HeroSliderOne";
 import WhoWeAreFour from "../../components/WhoWeAre/WhoWeAreFour";
 import Resume from "../../components/Resume/Resume";
-import ContactTwo from "../../components/ContactUs/ContactTwo";
 import FooterTwo from "../../components/Footer/FooterTwo";
 import IdeWork from "../../components/Portfolio/IdeWork";
-import FooterOne from "../../components/Footer/FooterOne";
 
 const PersonalResume = () => {
   useBodyClass(["wrap-nav-sidebar", "ide-theme-active"]);
@@ -19,8 +17,6 @@ const PersonalResume = () => {
   const about = useRef();
   const portfolio = useRef();
   const resume = useRef();
-  const contact = useRef();
-  
 
   const scrollToSection = (e, content) => {
     e.preventDefault();
@@ -36,9 +32,6 @@ const PersonalResume = () => {
         break;
       case "resume":
         resume.current.scrollIntoView({ behavior: "smooth" });
-        break;
-      case "contact":
-        contact.current.scrollIntoView({ behavior: "smooth" });
         break;
       default:
     }
@@ -57,7 +50,6 @@ const PersonalResume = () => {
         <WhoWeAreFour ref={about} />
         <IdeWork ref={portfolio} />
         <Resume ref={resume} />
-        {/* <ContactTwo title="Contact Me" ref={contact} classAppend="mt-50" /> */}
         <FooterTwo />
       </div>
     </Loader>
