@@ -10,7 +10,6 @@ const descriptions = {
   "Marbl Platform": "Product platform spanning web and mobile.",
   Game: "Tower defense prototype built for a game jam.",
   Conectorium: "Web platform.",
-  Kindergarden: "Website for a kindergarten and childcare center.",
   "Ayax Toyota": "Dealer app — service scheduling & showroom.",
   "KingdomRush Vengeance Expansion": "Tower defense expansion — IronHide Games.",
   "JunkWorld TowerDefense Project": "Tower defense game — IronHide Games.",

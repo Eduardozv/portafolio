@@ -133,25 +133,6 @@
     ]
   },
   {
-    "id": 5,
-    "title": "Kindergarden",
-    "category": "WEBS",
-    "image": "portfolio/jardin.png",
-    "groups": ["all", "webs"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "https://miennielanndie.edu.uy/"
-      }
-    ]
-  },
-  {
     "id": 6,
     "title": "Ayax Toyota",
     "category": "APPS",
